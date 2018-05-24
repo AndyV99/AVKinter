@@ -2,3 +2,5 @@
 """ Provides Syling for AVKLabels
 
 """
+
+from Styles import defaults

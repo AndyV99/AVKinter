@@ -3,4 +3,4 @@
 """
 
 from tkinter import Label
-
+from Styles import AVKLabelStyles

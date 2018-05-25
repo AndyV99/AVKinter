@@ -14,18 +14,18 @@ __email__ = "andvornd@iu.edu"
 
 class AVKButton(Button):
 	def __init__(self,
-	                 pmaster,
-					 ptext=None,
-					 pcommand=None,
-					 ptype=None):
+	             pmaster,
+	             ptext=None,
+	             pcommand=None,
+	             pstyle=None):
 		Button.__init__(self, pmaster)
 		self.config(text=ptext)
 		self.config(command=pcommand)
 
 		try:
-			self.avkbConfigure(AVKButtonStyles[ptype])
+			self.avkbConfigure(AVKButtonStyles[pstyle])
 		except KeyError:
-			raise AVKButton.InvalidAVKButtonTypeError(ptype)
+			raise AVKButton.InvalidAVKButtonTypeError(pstyle)
 
 	def avkbConfigure(self, pconfig):
 		self.configure(font=pconfig['font'])

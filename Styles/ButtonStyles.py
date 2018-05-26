@@ -1,4 +1,4 @@
-#!/user/bin/env python
+#!/usr/bin/env python
 """ Provides Styling for AVKButtons
 
 """

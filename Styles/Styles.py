@@ -33,6 +33,3 @@ defaults = {
 		'titleLabelStyle': "DEFAULT"
 	}
 }
-
-
-

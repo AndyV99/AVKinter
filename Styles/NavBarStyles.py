@@ -3,7 +3,7 @@
 
 """
 
-from Styles import defaults
+from .Styles import defaults
 
 __author__ = "Andrew Vorndran"
 __copyright__ = "Copyright 2018, Andrew Vorndran"
@@ -17,9 +17,9 @@ AVKNavBarStyles = {
 
 def newAVKNavBarStyle(pname,
                       pbackgroundColor=defaults['NAVBAR']['backgroundColor'],
-                      pbackButtonStyle=defaults['BUTTON'],
-                      pnextButtonStyle=defaults['BUTTON'],
-                      ptitleLabelStyle=defaults['LABEL']):
+                      pbackButtonStyle=defaults['NAVBAR']['backButtonStyle'],
+                      pnextButtonStyle=defaults['NAVBAR']['nextButtonStyle'],
+                      ptitleLabelStyle=defaults['NAVBAR']['titleLabelStyle']):
 	AVKNavBarStyles[pname] = {
 		'backgroundColor': pbackgroundColor,
 		'backButtonStyle': pbackButtonStyle,

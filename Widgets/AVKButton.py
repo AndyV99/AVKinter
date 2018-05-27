@@ -4,7 +4,7 @@
 """
 
 from tkinter import Button
-from Styles import AVKButtonStyles
+from ..Styles import AVKButtonStyles
 
 __author__ = "Andrew Vorndran"
 __copyright__ = "Copyright 2018, Andrew Vorndran"

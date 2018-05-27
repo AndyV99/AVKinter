@@ -3,7 +3,7 @@
 
 """
 
-from Styles import defaults
+from .Styles import defaults
 
 __author__ = "Andrew Vorndran"
 __copyright__ = "Copyright 2018, Andrew Vorndran"
@@ -16,9 +16,9 @@ AVKLabelStyles = {
 }
 
 def newAVKLabelStyle(pname,
-                     pfont=defaults['font'],
-                     pfontColor=defaults['fontColor'],
-                     pbackgroundColor=defaults['backgroundColor']):
+                     pfont=defaults['LABEL']['font'],
+                     pfontColor=defaults['LABEL']['fontColor'],
+                     pbackgroundColor=defaults['LABEL']['backgroundColor']):
 	AVKLabelStyles[pname] = {
 		'font': pfont,
 		'fontColor': pfontColor,

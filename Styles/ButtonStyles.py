@@ -3,7 +3,7 @@
 
 """
 
-from Styles import defaults
+from .Styles import defaults
 
 __author__ = "Andrew Vorndran"
 __copyright__ = "Copyright 2018, Andrew Vorndran"
@@ -16,12 +16,12 @@ AVKButtonStyles = {
 }
 
 def newAVKButtonStyle(pname,
-                      pfont=defaults['font'],
-                      pfontColor=defaults['fontColor'],
-                      pbackgroundColor=defaults['backgroundColor'],
-                      pactiveFontColor=defaults['activeFontColor'],
-                      pactiveBackgroundColor=defaults['activeBackgroundColor'],
-                      prelief=defaults['relief']):
+                      pfont=defaults['BUTTON']['font'],
+                      pfontColor=defaults['BUTTON']['fontColor'],
+                      pbackgroundColor=defaults['BUTTON']['backgroundColor'],
+                      pactiveFontColor=defaults['BUTTON']['activeFontColor'],
+                      pactiveBackgroundColor=defaults['BUTTON']['activeBackgroundColor'],
+                      prelief=defaults['BUTTON']['relief']):
 	AVKButtonStyles[pname] = {
 		'font': pfont,
 		'fontColor': pfontColor,

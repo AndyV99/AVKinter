@@ -4,7 +4,7 @@
 """
 
 from tkinter import Label
-from Styles import AVKLabelStyles
+from ..Styles import AVKLabelStyles
 
 __author__ = "Andrew Vorndran"
 __copyright__ = "Copyright 2018, Andrew Vorndran"

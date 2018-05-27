@@ -17,7 +17,7 @@ class AVKButton(Button):
 	             pmaster,
 	             ptext=None,
 	             pcommand=None,
-	             pstyle=None):
+	             pstyle="DEFAULT"):
 		Button.__init__(self, pmaster)
 		self.config(text=ptext)
 		self.config(command=pcommand)

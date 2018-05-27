@@ -12,7 +12,7 @@ __maintainer__ = "Andrew Vorndran"
 __email__ = "andvornd@iu.edu"
 
 AVKLabelStyles = {
-	'DEFAULT': defaults
+	'DEFAULT': defaults['LABEL']
 }
 
 def newAVKLabelStyle(pname,

@@ -12,7 +12,7 @@ __maintainer__ = "Andrew Vorndran"
 __email__ = "andvornd@iu.edu"
 
 AVKButtonStyles = {
-	'DEFAULT': defaults,
+	'DEFAULT': defaults['BUTTON']
 }
 
 def newAVKButtonStyle(pname,

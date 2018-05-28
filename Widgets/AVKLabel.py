@@ -32,10 +32,19 @@ class AVKLabel(Label):
 			raise AVKLabel.InvalidAVKLabelTypeError(pstyle)
 
 	def avklConfigure(self, pconfig):
+		"""
+		Coinfugres style of AVKLabel Based on configuration dictionary
+		:param pconfig: Configuration ditionary from AVKLabelStyles
+		:return: None
+		"""
 		self.config(font=pconfig['font'])
 		self.config(fg=pconfig['fontColor'])
 		self.config(bg=pconfig['backgroundColor'])
 
 	class InvalidAVKLabelTypeError(Exception):
 		def __init__(self, key):
+			"""
+			Initialization Function
+			:param key: Key that caused error meaning this AVKLabel Style doesn't exist
+			"""
 			Exception.__init__(self, "\nInvalid AVKButton type: {0}".format(key))

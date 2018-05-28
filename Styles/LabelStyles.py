@@ -19,6 +19,14 @@ def newAVKLabelStyle(pname,
                      pfont=defaults['LABEL']['font'],
                      pfontColor=defaults['LABEL']['fontColor'],
                      pbackgroundColor=defaults['LABEL']['backgroundColor']):
+	"""
+	Defines a new AVKLabel style
+	:param pname: Name of new style
+	:param pfont: Font definition as tuple
+	:param pfontColor: Color of font as hex string
+	:param pbackgroundColor: Color of background as hex string
+	:return: Nune
+	"""
 	AVKLabelStyles[pname] = {
 		'font': pfont,
 		'fontColor': pfontColor,

@@ -22,6 +22,17 @@ def newAVKButtonStyle(pname,
                       pactiveFontColor=defaults['BUTTON']['activeFontColor'],
                       pactiveBackgroundColor=defaults['BUTTON']['activeBackgroundColor'],
                       prelief=defaults['BUTTON']['relief']):
+	"""
+	Defines a new AVKButton style
+	:param pname: Name of new style
+	:param pfont: Font definition as tuple
+	:param pfontColor: Color of font as hex string
+	:param pbackgroundColor: Color of background as hex string
+	:param pactiveFontColor: Color of font when button clicked
+	:param pactiveBackgroundColor: Color of background when button clicked
+	:param prelief: Relief of button defined in tkinter
+	:return: None
+	"""
 	AVKButtonStyles[pname] = {
 		'font': pfont,
 		'fontColor': pfontColor,

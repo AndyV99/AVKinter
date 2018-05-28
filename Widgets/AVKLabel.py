@@ -17,6 +17,12 @@ class AVKLabel(Label):
 	             pmaster,
 	             ptext=None,
 	             pstyle="DEFAULT"):
+		"""
+		Initialization Function
+		:param pmaster: Master Frame
+		:param ptext: Text to display on label
+		:param pstyle: User-defined style or default as string
+		"""
 		Label.__init__(self, pmaster)
 		self.config(text=ptext)
 

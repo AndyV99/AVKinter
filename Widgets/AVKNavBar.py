@@ -27,7 +27,7 @@ class AVKNavBar(Frame):
 		:param pname: Text to display on navbar
 		:param pbackButtonInfo: Dict with TEXT and COMMAND
 		:param pnextButtonInfo: Dict with TEXT and COMMAND
-		:param pstyle: User-defined style or default
+		:param pstyle: User-defined style or default as string
 		"""
 		Frame.__init__(self, pmaster)
 		self.B_BackButton = None

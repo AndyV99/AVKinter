@@ -27,7 +27,7 @@ def newAVKNavBarStyle(pname,
 	:param pbackButtonStyle: Style of the back button
 	:param pnextButtonStyle: Style of the next button
 	:param ptitleLabelStyle: Style of the title label
-	:return:
+	:return: None
 	"""
 	AVKNavBarStyles[pname] = {
 		'backgroundColor': pbackgroundColor,
